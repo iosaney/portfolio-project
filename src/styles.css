@@ -1,8 +1,7 @@
 /*font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 body {
-  background-color: rgb(1, 1, 37);
-  margin: 20px;
+  background-color: #484848;
 }
 h1,
 h2,
@@ -14,20 +13,33 @@ h5 {
   color: white;
 }
 
-.headers {
-  padding: 35px;
-}
-
-h5 {
-  font-size: 12px;
-}
 p {
   font-family: "Nunito", sans-serif;
   color: #000;
+  font-size: 28px;
+  line-height: 3;
 }
+
 .hero {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.20) 100%), url("/images/bg.png") no-repeat center center / 100% 100%;
-  margin-bottom: 48px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("/images/bg.png") no-repeat center center / 100% 100%;
+}
+
+.hero h1 {
+  text-align: center;
+  font-size: 72px;
+}
+.hero h5 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.headers {
+  padding: 35px;
 }
 
 @media (max-width: 700px) {
@@ -35,6 +47,7 @@ p {
     background-size: cover;
   }
 }
-.contents{
-
+.container {
+  margin-top: 100px;
+  padding: 70px;
 }
