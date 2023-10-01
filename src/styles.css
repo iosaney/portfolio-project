@@ -1,7 +1,7 @@
 /*font-family: 'Nunito', sans-serif;
 font-family: 'Roboto', sans-serif;*/
 body {
-  background-color: #484848;
+  background-color: #ffffff;
 }
 h1,
 h2,
@@ -17,7 +17,6 @@ p {
   font-family: "Nunito", sans-serif;
   color: #000;
   font-size: 28px;
-  line-height: 3;
 }
 
 .hero {
@@ -27,6 +26,7 @@ p {
       rgba(0, 0, 0, 0.2) 100%
     ),
     url("/images/bg.png") no-repeat center center / 100% 100%;
+    margin-bottom: 70px;
 }
 
 .hero h1 {
@@ -47,6 +47,16 @@ p {
     background-size: cover;
   }
 }
-.container {
-  padding-top: 100px;
+
+.footerSection {
+  background-color: #F9F7FE;
+  flex: 1;
+  text-align: center;
+}
+.footerSection p {
+  font-size: 12px;
+}
+.footerSection .row{
+  display: flex;
+  align-content:center;
 }
