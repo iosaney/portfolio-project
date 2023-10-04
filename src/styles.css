@@ -99,7 +99,8 @@ p {
   .hero {
     margin-bottom: 30px;
   }
-  .footerSection img {
-    font-size: 10px;
+ .logo {
+    width:100px;
+    height: auto;
   }
 }
