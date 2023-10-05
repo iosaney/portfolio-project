@@ -18,7 +18,13 @@ h5 {
   font-weight: bold;
   color: var(--main-color);
 }
-h1, h5{
+h1{
+  font-size: 72px;
+  text-align: center;
+  margin:20px;
+}
+
+.header h1, h5{
   color:white;
 }
 
@@ -67,8 +73,12 @@ p {
   line-height: 35px;
 }
 
-.headers {
+.header {
   padding: 35px;
+}
+
+.aboutMeContent{
+margin-top: 100px;
 }
 
 .bodySection {
