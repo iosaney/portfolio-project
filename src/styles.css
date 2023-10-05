@@ -75,16 +75,18 @@ p {
 
   .hero h1 {
     margin-top: 10px;
-    font-size: 21px;
+    font-size: 26px;
     line-height: 1.5;
+    text-align: left;
   }
   .hero h5 {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5;
+    text-align: left;
   }
 
   p {
-    font-size: 12px;
+    font-size: 18px;
     text-align: center;
   }
 
@@ -95,6 +97,7 @@ p {
   display: block;
   margin: 0 auto;
   padding: 0 35px 0 35px ;
+  margin-bottom: 30px;
   }
   .hero {
     margin-bottom: 30px;
@@ -103,4 +106,5 @@ p {
     width:100px;
     height: auto;
   }
+
 }
