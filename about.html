@@ -34,7 +34,7 @@
     <h1>About Me</h1>
 
     <div class="container aboutMeContent">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-6">
           <img
             class="img-fluid"
@@ -50,16 +50,23 @@
             amet diam suscipit pretium massa, sollicitudin in risus in.
             Sagittis.
           </p>
-          <h6>Follow Me</h6>
-          <span class="socmed">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-instagram px-3"></i
-            ><i class="fa-brands fa-linkedin"></i
-          ></span>
+          <div class="socialMedias d-flex">
+            <h6>Follow Me</h6>
+            <span class="abtSocmed">
+              <a class="socialMediaLinks" href="#" title="">
+                <i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a class="socialMediaLinks" href="#" title="">
+                <i class="fa-brands fa-instagram px-3"></i
+              ></a>
+              <a class="socialMediaLinks" href="#" title=""
+                ><i class="fa-brands fa-linkedin"></i></a
+            ></span>
+          </div>
         </div>
       </div>
     </div>
-    <h3>favorite recipes</h3>
+    <h3 class="my-5 favRecipeHeader">favorite recipes</h3>
 
     <div class="container">
       <div class="row">
@@ -70,7 +77,7 @@
             alt="bowl of fruits toppings on yogurt"
           />
 
-          <h4>Healthy Breakfasts</h4>
+          <h4 class="my-4">Healthy Breakfasts</h4>
           <p>
             Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
             consectetur volutpat commodo mi suspendisse odio.
@@ -83,7 +90,7 @@
             src="images/healthy-breakfast.png"
             alt="plate of fruits and biscuits"
           />
-          <h4>Special Breakfasts</h4>
+          <h4 class="my-4">Special Breakfasts</h4>
           <p>
             Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
             consectetur volutpat commodo mi suspendisse odio.
@@ -96,16 +103,15 @@
             src="images/blueberry-crepe.png"
             alt="crepe with blueberry toppings"
           />
-          <h4>Blueberry Crepe</h4>
+          <h4 class="my-4">Blueberry Crepe</h4>
           <p>
             Id ac lorem maecenas rhoncus lobortis turpis morbi. Id ut lobortis
             consectetur volutpat commodo mi suspendisse odio.
           </p>
         </div>
-        
       </div>
     </div>
-    <footer>
+    <footer class="mt-4">
       <div class="container-fluid p-2 footerSection">
         <div class="row p-3 g-2">
           <div class="col-md-4">
@@ -117,9 +123,15 @@
           </div>
 
           <div class="col-md-4 socmed">
-            <i class="fa-brands fa-square-facebook"></i>
-            <i class="fa-brands fa-instagram px-3"></i
-            ><i class="fa-brands fa-linkedin"></i>
+            <a class="socialMediaLinks" href="#" title="">
+              <i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a class="socialMediaLinks" href="#" title="">
+              <i class="fa-brands fa-instagram px-3"></i
+            ></a>
+            <a class="socialMediaLinks" href="#" title=""
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </div>
           <div class="col-md-4">
             <p class="copyright">© 2021 SheCodes All rights reserved.</p>

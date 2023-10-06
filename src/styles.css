@@ -53,6 +53,10 @@ p {
   font-size: 16px;
 }
 
+.favRecipeHeader {
+  text-align: center;
+}
+
 .hero {
   background: linear-gradient(
       180deg,
@@ -78,7 +82,16 @@ p {
 }
 
 .aboutMeContent{
-margin-top: 100px;
+margin:100px;
+padding:0 140px;
+}
+
+.abtSocmed{
+  padding-left: 20px;
+}
+
+.socialMediaLinks{
+  color:black;
 }
 
 .bodySection {
