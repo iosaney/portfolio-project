@@ -18,14 +18,15 @@ h5 {
   font-weight: bold;
   color: var(--main-color);
 }
-h1{
+h1 {
   font-size: 72px;
   text-align: center;
-  margin:20px;
+  margin: 20px;
 }
 
-.header h1, h5{
-  color:white;
+.header h1,
+h5 {
+  color: white;
 }
 
 h2 {
@@ -41,8 +42,18 @@ h6 {
   color: var(--main-color);
 }
 
+.recipeColHeader {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Nunito", sans-serif;
+}
+
+.steps {
+  color: #f65282;
+  font-weight: 800;
+}
 .copyright {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: var(--main-color);
   font-size: 28px;
 }
@@ -81,23 +92,55 @@ p {
   padding: 35px;
 }
 
-.aboutMeContent{
-margin:100px;
-padding:0 140px;
+.aboutMeContent {
+  margin: 100px;
+  padding: 0 140px;
 }
 
-.abtSocmed{
+.abtSocmed {
   padding-left: 20px;
 }
 
-.socialMediaLinks{
-  color:black;
+.socialMediaLinks {
+  color: black;
 }
 
 .bodySection {
   display: block;
   margin: 100px auto;
 }
+.recipePic {
+  display: block;
+  margin: 10px auto;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+hr {
+  border: none; /* Remove the default border */
+  border-top: 2px dashed #67D5D2; /* Set the green dashed border on top */
+  margin: 10px 0; /* Adjust the margin as needed */
+  opacity: 75%;
+}
+
+ol {
+  list-style: none;
+  padding: 0px;
+}
+.recipeBody{
+  width:1000px;
+  margin:20px auto;
+}
+
+.instructions {
+  font-family: "Nunito", sans-serif;
+  line-height: 30px;
+  font-size: 18px;
+  color: var(--main-color);
+}
+
 .bodySection .row {
   display: flex;
   justify-content: space-evenly;
@@ -140,8 +183,12 @@ padding:0 140px;
     font-size: 18px;
     text-align: center;
   }
+
+  .recipeName {
+    font-size: 36px;
+  }
   .row {
-    margin:0 !important;
+    margin: 0 !important;
   }
 
   .headers {
