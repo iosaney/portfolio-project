@@ -178,7 +178,9 @@ ol {
   display: flex;
   align-content: center;
 }
-
+nav .container-fluid{
+  padding: 20px 0;
+}
 @media (max-width: 800px) {
   .recipeBody {
     width: 500px;
