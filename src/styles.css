@@ -114,14 +114,31 @@ p {
   margin: 10px auto;
 }
 
+#active-link{
+  color: purple;
+}
+
+.nav-link{
+  color:var(--main-color);
+  font-family: "Nunito", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+  margin: 10px;
+  font-weight: 600;
+}
+
+.recipeBody h1{
+  margin-bottom:100px;
+}
+
 ul {
   padding: 0px;
   list-style: none;
 }
 hr {
-  border: none; /* Remove the default border */
-  border-top: 2px dashed #67D5D2; /* Set the green dashed border on top */
-  margin: 10px 0; /* Adjust the margin as needed */
+  border: none; 
+  border-top: 2px dashed #67D5D2; 
+  margin: 10px 0; 
   opacity: 75%;
 }
 
@@ -130,8 +147,8 @@ ol {
   padding: 0px;
 }
 .recipeBody{
-  width:1000px;
-  margin:20px auto;
+  margin:10px auto;
+  padding:10px;
 }
 
 .instructions {
@@ -162,6 +179,18 @@ ol {
   align-content: center;
 }
 
+@media (max-width:800px){
+  .recipeBody{
+    width:500px;
+  padding: 10px;
+  margin: 0px auto;
+  }
+  .recipeBody h1{
+    text-align: left;
+    font-size: 28px;
+  margin-bottom:0px;
+  }
+}
 @media (max-width: 900px) {
   .hero {
     background-size: cover;
