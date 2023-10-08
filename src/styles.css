@@ -3,7 +3,7 @@ font-family: 'Roboto', sans-serif;*/
 :root {
   --background: #f9f7fe;
   --main-color: #272142;
-  --sec-color:#662EED;
+  --sec-color: #662eed;
 }
 
 body {
@@ -22,12 +22,6 @@ h5 {
 h1 {
   font-size: 72px;
   text-align: center;
-  margin: 20px;
-}
-
-.header h1,
-h5 {
-  color: white;
 }
 
 h2 {
@@ -43,12 +37,43 @@ h6 {
   color: var(--main-color);
 }
 
-h6.contactTitles{
-  margin:20px 0;
-  color:var(--sec-color);
+p {
+  font-family: "Nunito", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+hr {
+  border: none;
+  border-top: 2px dashed #67d5d2;
+  margin: 10px 0;
+  opacity: 75%;
+}
+
+ol {
+  list-style: none;
+  padding: 0px;
+}
+
+h6.contactTitles {
+  margin: 20px 0;
+  color: var(--sec-color);
   font-size: 18px;
   font-weight: bold;
   font-family: "Nunito", sans-serif;
+}
+
+.header h1,
+h5 {
+  color: white;
+}
+
+.aboutMeContent h1{
+  margin-bottom:100px;
 }
 .recipeColHeader {
   font-size: 24px;
@@ -64,12 +89,6 @@ h6.contactTitles{
   font-family: "Roboto", sans-serif;
   color: var(--main-color);
   font-size: 28px;
-}
-
-p {
-  font-family: "Nunito", sans-serif;
-  line-height: 30px;
-  font-size: 16px;
 }
 
 .favRecipeHeader {
@@ -101,10 +120,9 @@ p {
 }
 
 .aboutMeContent {
-  margin: 100px;
-  padding: 0 140px;
-}
-
+  margin: 0px auto;
+  padding: 0 60px;
+} 
 .abtSocmed {
   padding-left: 20px;
 }
@@ -139,21 +157,6 @@ p {
   margin-bottom: 100px;
 }
 
-ul {
-  padding: 0px;
-  list-style: none;
-}
-hr {
-  border: none;
-  border-top: 2px dashed #67d5d2;
-  margin: 10px 0;
-  opacity: 75%;
-}
-
-ol {
-  list-style: none;
-  padding: 0px;
-}
 .recipeBody {
   margin: 10px 90px auto;
   padding: 10px;
@@ -186,16 +189,25 @@ ol {
   display: flex;
   align-content: center;
 }
-nav .container-fluid{
+nav .container-fluid {
   padding: 20px 0;
 }
 
-.contactInfo{
+.contactInfo {
   margin-right: 20px;
 }
 
-
+.contactBody h1{
+  margin-bottom: 100px;
+}
 @media (max-width: 800px) {
+  
+  h1 {
+    margin: 10px 5px;
+    font-size: 28px;
+    line-height: 1.5;
+    text-align: left;
+  }
   .recipeBody {
     width: 500px;
     padding: 10px;
@@ -206,21 +218,43 @@ nav .container-fluid{
     font-size: 28px;
     margin: 18px 0;
   }
-  h3.recipeName{
+  h3.recipeName {
     font-size: 24px;
   }
+  .aboutMeContent {
+  margin: 0px auto;
+  padding: 0px;
 }
+}
+
+
 @media (max-width: 900px) {
+  h1{
+    font-size: 32px;
+  }
   .hero {
     background-size: cover;
   }
+.aboutMeContent h2{
+  font-size: 24px;
+}
+.aboutMeContent h1 {
+    margin-bottom: 25px;
+}
 
+.recipeBody h1{
+    margin-bottom: 25px;
+}
+.contactBody h1{
+    margin-bottom: 25px;
+}
   .hero h1 {
     margin-top: 10px;
-    font-size: 26px;
+    font-size: 32px;
     line-height: 1.5;
     text-align: left;
   }
+
   .hero h5 {
     font-size: 14px;
     line-height: 1.5;
