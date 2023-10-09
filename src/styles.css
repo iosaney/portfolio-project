@@ -125,7 +125,7 @@ h5 {
 }
 
 .aboutMeContent {
-  margin: 0px auto;
+  margin: 0px;
   padding: 0 60px;
 }
 .abtSocmed {
@@ -145,6 +145,10 @@ h5 {
   margin: 10px auto;
 }
 
+.recipesSection{
+  display: flex;
+  justify-content: center;
+}
 #active-link {
   color: purple;
 }
@@ -194,6 +198,11 @@ h5 {
   display: flex;
   align-content: center;
 }
+
+.authorNote{
+  color: #000;
+}
+
 nav .container-fluid {
   padding: 20px 0;
 }
@@ -205,6 +214,12 @@ nav .container-fluid {
 .contactBody h1 {
   margin-bottom: 100px;
 }
+
+.contactBody{
+  margin-bottom: 100px;
+}
+
+
 @media (max-width: 800px) {
   h1 {
     margin: 0px 0px;
@@ -230,10 +245,7 @@ nav .container-fluid {
   font-size: 16px;
   }
 
- .favRecipes img {
-  margin:0 auto;
-  display: block;
- }
+
  .navBar{
   padding: 7px !important ;
  }
