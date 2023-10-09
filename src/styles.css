@@ -234,6 +234,9 @@ nav .container-fluid {
   margin:0 auto;
   display: block;
  }
+ .navBar{
+  padding: 7px !important ;
+ }
   .recipeBody {
     padding: 10px;
     margin: 0px auto;
@@ -274,6 +277,9 @@ nav .container-fluid {
     font-size: 14px;
     line-height: 1.5;
     text-align: left;
+  }
+  .favRecipeHeader{
+    margin-bottom: 15px !important; 
   }
 
   h3 {
