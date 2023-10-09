@@ -124,14 +124,13 @@ h5 {
   padding: 35px;
 }
 
-.aboutMeContent {
-  margin: 0px;
-  padding: 0 60px;
-}
 .abtSocmed {
   padding-left: 20px;
 }
 
+.favRecipes img{
+  margin: 0 auto;
+}
 .socialMediaLinks {
   color: black;
 }
@@ -145,6 +144,9 @@ h5 {
   margin: 10px auto;
 }
 
+.aboutMeContent {
+  padding: 0 100px;
+}
 .recipesSection{
   display: flex;
   justify-content: center;
