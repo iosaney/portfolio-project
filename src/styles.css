@@ -72,8 +72,8 @@ h5 {
   color: white;
 }
 
-.aboutMeContent h1{
-  margin-bottom:100px;
+.aboutMeContent h1 {
+  margin-bottom: 100px;
 }
 .recipeColHeader {
   font-size: 24px;
@@ -122,7 +122,7 @@ h5 {
 .aboutMeContent {
   margin: 0px auto;
   padding: 0 60px;
-} 
+}
 .abtSocmed {
   padding-left: 20px;
 }
@@ -197,16 +197,19 @@ nav .container-fluid {
   margin-right: 20px;
 }
 
-.contactBody h1{
+.contactBody h1 {
   margin-bottom: 100px;
 }
 @media (max-width: 800px) {
-  
   h1 {
     margin: 10px 5px;
     font-size: 28px;
     line-height: 1.5;
     text-align: left;
+  }
+  p{  
+  line-height: 1.7;
+  font-size: 16px;
   }
   .recipeBody {
     width: 500px;
@@ -221,33 +224,32 @@ nav .container-fluid {
   h3.recipeName {
     font-size: 24px;
   }
-  .aboutMeContent {
-  margin: 0px auto;
-  padding: 0px;
+  
 }
-}
-
 
 @media (max-width: 900px) {
-  h1{
+  h1 {
     font-size: 32px;
+  }
+  h6{
+    font-size:16px;
   }
   .hero {
     background-size: cover;
   }
-.aboutMeContent h2{
-  font-size: 24px;
-}
-.aboutMeContent h1 {
+  .aboutMeContent h2 {
+    font-size: 24px;
+  }
+  .aboutMeContent h1 {
     margin-bottom: 25px;
-}
+  }
 
-.recipeBody h1{
+  .recipeBody h1 {
     margin-bottom: 25px;
-}
-.contactBody h1{
+  }
+  .contactBody h1 {
     margin-bottom: 25px;
-}
+  }
   .hero h1 {
     margin-top: 10px;
     font-size: 32px;
@@ -262,7 +264,7 @@ nav .container-fluid {
   }
 
   h3 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
   }
 
